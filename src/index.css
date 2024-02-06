@@ -1,0 +1,125 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 23, 23);
+  color: #efefef;
+}
+
+
+.div-login-register{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 320px;
+}
+
+.span-register-message{
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-form input{
+  font-size: 16px;
+  padding: 4px;
+}
+
+.label-form{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom:8px;
+}
+
+.login-form button {
+  padding: 8px, 16px,8px,16px;
+  font-size: 16px;
+  background-color: rgb(103, 155, 109);
+}
+
+.button-logout{
+  padding: 12px;
+  font-size: 20px;
+  background-color: rgb(155, 66, 66);
+  border-radius: 8px;
+  border-color: #efefef;
+  
+}
+
+.welcome-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 160px;
+  margin-top:40px;
+}
+
+.h1-notas{
+  font-size: 48px;
+  margin-top: 4rem;
+}
+
+.add-notes{
+  display: flex;
+  flex-direction: row;
+  gap:8px;
+  margin-top: 40px;
+}
+
+.input-notes{
+  font-size: 16px;
+  padding: 6px;
+}
+
+.button-notes{
+  padding: 5px;
+  font-size: 14px;
+  background-color: rgb(103, 155, 109);
+}
+
+.notes-list{
+  margin-top: 80px;
+}
+
+.notes-list li{
+  font-size: 24px;
+  margin: 16px;
+}
+
+.individual-note-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:16px;
+
+}
+
+.individual-note-container button{
+  padding: 4px;
+  font-size: 16px;
+  background-color: #ad6f6f;
+  color:white;
+}
+
+.input-edit-container{
+  display: flex;
+  flex-direction: row;
+  gap:16px;
+  margin: 16px;
+}
